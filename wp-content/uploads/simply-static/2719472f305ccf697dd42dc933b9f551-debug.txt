@@ -1,0 +1,702 @@
+[2024-10-16 17:42:58] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-16 17:42:58] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-10-16 17:42:58] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-16 17:42:58] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-16 17:42:58] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-16 17:42:58] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-16 17:42:58] [class-ss-setup-task.php:33] Creating archive directory: E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578\
+[2024-10-16 17:42:58] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/dalton/
+[2024-10-16 17:42:58] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-16 17:42:58] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-16 17:42:58] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-16 17:42:58] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-16 17:42:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/
+[2024-10-16 17:42:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-16 17:42:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:42:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb22c5089-PKhGpv.tmp
+[2024-10-16 17:42:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/?simply_static_page=1
+[2024-10-16 17:42:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/?simply_static_page=1
+[2024-10-16 17:43:03] [class-ss-url-fetcher.php:103] Filesize: 142671 bytes
+[2024-10-16 17:43:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-16 17:43:03] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-16 17:43:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb22c5089-PKhGpv.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/index.html
+[2024-10-16 17:43:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:03] [class-ss-fetch-urls-task.php:159] Adding 34 URLs to the queue
+[2024-10-16 17:43:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:03] [class-ss-page.php:119] Checking Content Identical:f2867f31860027d3e7e07bddd758548cecdfb8e7===. Value: FALSE
+[2024-10-16 17:43:03] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-16 17:43:03] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-16 17:43:03] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-16 17:43:03] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-16 17:43:03] [class-ss-fetch-urls-task.php:69] Total pages: 34; Pages remaining: 33
+[2024-10-16 17:43:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/category/uncategorized/
+[2024-10-16 17:43:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 34
+[2024-10-16 17:43:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb27a15d2-QVCyqz.tmp
+[2024-10-16 17:43:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/category/uncategorized/?simply_static_page=2
+[2024-10-16 17:43:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/category/uncategorized/?simply_static_page=2
+[2024-10-16 17:43:04] [class-ss-url-fetcher.php:103] Filesize: 128763 bytes
+[2024-10-16 17:43:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-16 17:43:04] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2024-10-16 17:43:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb27a15d2-QVCyqz.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/category/uncategorized/index.html
+[2024-10-16 17:43:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:04] [class-ss-fetch-urls-task.php:159] Adding 23 URLs to the queue
+[2024-10-16 17:43:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:05] [class-ss-page.php:119] Checking Content Identical:8bbc0d5a6943983c4d64e8ccdffcc0be00c97522===. Value: FALSE
+[2024-10-16 17:43:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/2024/10/
+[2024-10-16 17:43:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 34
+[2024-10-16 17:43:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb290a0ff-YIZNVg.tmp
+[2024-10-16 17:43:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/2024/10/?simply_static_page=3
+[2024-10-16 17:43:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/2024/10/?simply_static_page=3
+[2024-10-16 17:43:05] [class-ss-url-fetcher.php:103] Filesize: 128391 bytes
+[2024-10-16 17:43:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-16 17:43:05] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/index.html
+[2024-10-16 17:43:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb290a0ff-YIZNVg.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/2024/10/index.html
+[2024-10-16 17:43:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:05] [class-ss-fetch-urls-task.php:159] Adding 21 URLs to the queue
+[2024-10-16 17:43:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:05] [class-ss-page.php:119] Checking Content Identical:440f469da98099af9d85d69775edac19bd958ed4===. Value: FALSE
+[2024-10-16 17:43:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/feed/
+[2024-10-16 17:43:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 34
+[2024-10-16 17:43:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb29eb5d9-84kkc5.tmp
+[2024-10-16 17:43:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/feed/?simply_static_page=4
+[2024-10-16 17:43:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/feed/?simply_static_page=4
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:103] Filesize: 1680 bytes
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb29eb5d9-84kkc5.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/feed/index.xml
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:06] [class-ss-page.php:119] Checking Content Identical:9069b5fea30c2e3c3a9e651edd0747a8ecf887f7===. Value: FALSE
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/themes/Divi/images/logo.png
+[2024-10-16 17:43:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 34
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2a8edc5-O8SgD9.tmp
+[2024-10-16 17:43:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/themes/Divi/images/logo.png?simply_static_page=5
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/themes/Divi/images/logo.png?simply_static_page=5
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:103] Filesize: 1740 bytes
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/images/logo.png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2a8edc5-O8SgD9.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/themes/Divi/images/logo.png
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:06] [class-ss-page.php:119] Checking Content Identical:29b2b4b27bbcb73490b7db78de2f74a34d011de9===. Value: FALSE
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-08-1.png
+[2024-10-16 17:43:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 34
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2a97016-CS9Dpk.tmp
+[2024-10-16 17:43:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-08-1.png?simply_static_page=6
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-08-1.png?simply_static_page=6
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:103] Filesize: 109390 bytes
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/cyber-security-08-1.png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2a97016-CS9Dpk.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/uploads/2024/10/cyber-security-08-1.png
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:06] [class-ss-page.php:119] Checking Content Identical:e4107722d2afca579e91071f35b0006f2593b4cc===. Value: FALSE
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-01.png
+[2024-10-16 17:43:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 34
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2aa3161-hvk0j4.tmp
+[2024-10-16 17:43:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-01.png?simply_static_page=7
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-01.png?simply_static_page=7
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:103] Filesize: 45967 bytes
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/cyber-security-01.png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2aa3161-hvk0j4.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/uploads/2024/10/cyber-security-01.png
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:06] [class-ss-page.php:119] Checking Content Identical:beb3fc49647b30e853ff853d2f6e60fdc2561225===. Value: FALSE
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-28.png
+[2024-10-16 17:43:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 34
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2aaacf8-k8XgnU.tmp
+[2024-10-16 17:43:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-28.png?simply_static_page=8
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-28.png?simply_static_page=8
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:103] Filesize: 1671 bytes
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/cyber-security-icon-28.png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2aaacf8-k8XgnU.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/uploads/2024/10/cyber-security-icon-28.png
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:06] [class-ss-page.php:119] Checking Content Identical:592a2bb351e658e29c766adfe8117dd11472f975===. Value: FALSE
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-18.png
+[2024-10-16 17:43:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 34
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2ab242c-5fn3H0.tmp
+[2024-10-16 17:43:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-18.png?simply_static_page=9
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-18.png?simply_static_page=9
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:103] Filesize: 5388 bytes
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/cyber-security-icon-18.png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2ab242c-5fn3H0.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/uploads/2024/10/cyber-security-icon-18.png
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:06] [class-ss-page.php:119] Checking Content Identical:1f4829308b5fb8702b151603eca6abc11c502ee2===. Value: FALSE
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-12.png
+[2024-10-16 17:43:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 34
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2ab9d15-weixir.tmp
+[2024-10-16 17:43:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-12.png?simply_static_page=10
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-12.png?simply_static_page=10
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:103] Filesize: 2580 bytes
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/cyber-security-icon-12.png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2ab9d15-weixir.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/uploads/2024/10/cyber-security-icon-12.png
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:06] [class-ss-page.php:119] Checking Content Identical:88012fe2d2c873bacbb5901e73919c384b4c6990===. Value: FALSE
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-36.png
+[2024-10-16 17:43:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 34
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2ac41a9-0TdJ0h.tmp
+[2024-10-16 17:43:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-36.png?simply_static_page=11
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-36.png?simply_static_page=11
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:103] Filesize: 4383 bytes
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/cyber-security-icon-36.png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2ac41a9-0TdJ0h.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/uploads/2024/10/cyber-security-icon-36.png
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:06] [class-ss-page.php:119] Checking Content Identical:3561b4d3c5ed306f8a4f564d88dc11221373e050===. Value: FALSE
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-4.png
+[2024-10-16 17:43:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 34
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2acba82-urEP4B.tmp
+[2024-10-16 17:43:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-4.png?simply_static_page=12
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-4.png?simply_static_page=12
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:103] Filesize: 3235 bytes
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/cyber-security-icon-4.png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2acba82-urEP4B.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/uploads/2024/10/cyber-security-icon-4.png
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:06] [class-ss-page.php:119] Checking Content Identical:57985a39c574f986d255d7ae832240699423142f===. Value: FALSE
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-20.png
+[2024-10-16 17:43:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 34
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2ad7814-YalFE6.tmp
+[2024-10-16 17:43:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-20.png?simply_static_page=13
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-icon-20.png?simply_static_page=13
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:103] Filesize: 2929 bytes
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/cyber-security-icon-20.png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2ad7814-YalFE6.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/uploads/2024/10/cyber-security-icon-20.png
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:06] [class-ss-page.php:119] Checking Content Identical:a0a10307374897a27bae656c1b55c9ef7f4bfd44===. Value: FALSE
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-11-1.png
+[2024-10-16 17:43:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 34
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2adf1c1-WvTyDd.tmp
+[2024-10-16 17:43:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-11-1.png?simply_static_page=14
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-11-1.png?simply_static_page=14
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:103] Filesize: 76023 bytes
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/cyber-security-11-1.png
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2adf1c1-WvTyDd.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/uploads/2024/10/cyber-security-11-1.png
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:06] [class-ss-page.php:119] Checking Content Identical:f7542f9ebb860b929d418acc1cdce5378cd34694===. Value: FALSE
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-includes/js/jquery/jquery.min.js
+[2024-10-16 17:43:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 34
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2aea8f1-YYah5s.tmp
+[2024-10-16 17:43:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-includes/js/jquery/jquery.min.js?simply_static_page=15
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-includes/js/jquery/jquery.min.js?simply_static_page=15
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-10-16 17:43:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2aea8f1-YYah5s.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-includes/js/jquery/jquery.min.js
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:07] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-16 17:43:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 34
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2b05c55-lltKDe.tmp
+[2024-10-16 17:43:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=16
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=16
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2b05c55-lltKDe.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:07] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/themes/Divi/js/scripts.min.js
+[2024-10-16 17:43:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 34
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2b1260a-b58Gb7.tmp
+[2024-10-16 17:43:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=17
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=17
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:103] Filesize: 273614 bytes
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/js/scripts.min.js
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2b1260a-b58Gb7.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/themes/Divi/js/scripts.min.js
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:07] [class-ss-page.php:119] Checking Content Identical:830c3cbfaecc671fc86976b07e3374707d345cb3===. Value: FALSE
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/js/common.js
+[2024-10-16 17:43:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 34
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2b2432b-v6xXJA.tmp
+[2024-10-16 17:43:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=18
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=18
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:103] Filesize: 1343 bytes
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/js/common.js
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2b2432b-v6xXJA.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/themes/Divi/core/admin/js/common.js
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:07] [class-ss-page.php:119] Checking Content Identical:b7820e4ffb6becc133c48f66d9f683545530b959===. Value: FALSE
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-18.png
+[2024-10-16 17:43:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 34
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2b2d9d5-3d5DQW.tmp
+[2024-10-16 17:43:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-18.png?simply_static_page=19
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-18.png?simply_static_page=19
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:103] Filesize: 51740 bytes
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/cyber-security-18.png
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2b2d9d5-3d5DQW.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/uploads/2024/10/cyber-security-18.png
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:07] [class-ss-page.php:119] Checking Content Identical:69d44a756c4ebd5bd9e544fb522055c3989c1536===. Value: FALSE
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/xmlrpc.php
+[2024-10-16 17:43:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 34
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dalton/xmlrpc.php
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/comments/feed/
+[2024-10-16 17:43:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 34
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2b4ab77-vcxQPU.tmp
+[2024-10-16 17:43:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/comments/feed/?simply_static_page=21
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/comments/feed/?simply_static_page=21
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:103] Filesize: 1661 bytes
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2b4ab77-vcxQPU.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/comments/feed/index.xml
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:07] [class-ss-page.php:119] Checking Content Identical:a9c19890738e8c0cd3966fa4bd2d8f24eeb1bb81===. Value: FALSE
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/et-cache/11/et-divi-dynamic-11.css
+[2024-10-16 17:43:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 34
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2bdff57-BRlot9.tmp
+[2024-10-16 17:43:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/et-cache/11/et-divi-dynamic-11.css?simply_static_page=22
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/et-cache/11/et-divi-dynamic-11.css?simply_static_page=22
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:103] Filesize: 9910 bytes
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/11/et-divi-dynamic-11.css
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2bdff57-BRlot9.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/et-cache/11/et-divi-dynamic-11.css
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:07] [class-ss-page.php:119] Checking Content Identical:02620db2390fc1b4666d1e41434332509dd597b8===. Value: FALSE
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-json/
+[2024-10-16 17:43:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 34
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dalton/wp-json/
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-json/wp/v2/pages/11
+[2024-10-16 17:43:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 34
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dalton/wp-json/wp/v2/pages/11
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-json/oembed/1.0/embed
+[2024-10-16 17:43:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 34
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dalton/wp-json/oembed/1.0/embed
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-includes/css/dist/block-library/style.min.css
+[2024-10-16 17:43:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 34
+[2024-10-16 17:43:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2bf1479-v1foLk.tmp
+[2024-10-16 17:43:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-includes/css/dist/block-library/style.min.css?simply_static_page=26
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-includes/css/dist/block-library/style.min.css?simply_static_page=26
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:103] Filesize: 112427 bytes
+[2024-10-16 17:43:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2bf1479-v1foLk.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-includes/css/dist/block-library/style.min.css
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:08] [class-ss-page.php:119] Checking Content Identical:e23bc18ef1b0f78f7010e3c16e4c5e1f333248bd===. Value: FALSE
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-10-16 17:43:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 34
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2c0afd6-H48nvt.tmp
+[2024-10-16 17:43:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=27
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=27
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:103] Filesize: 9427 bytes
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2c0afd6-H48nvt.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:08] [class-ss-page.php:119] Checking Content Identical:350a7c0f6b64e19c61b183afef7ffaca57befa30===. Value: FALSE
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2024-10-16 17:43:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 34
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2c186fd-IgQErm.tmp
+[2024-10-16 17:43:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?simply_static_page=28
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?simply_static_page=28
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:103] Filesize: 92564 bytes
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2c186fd-IgQErm.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:08] [class-ss-page.php:119] Checking Content Identical:1086b2f4f2a5fe091fbcdbca916b44d18050c2c2===. Value: FALSE
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2024-10-16 17:43:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 34
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2c21b97-bbc3iB.tmp
+[2024-10-16 17:43:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf?simply_static_page=29
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf?simply_static_page=29
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:103] Filesize: 92400 bytes
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2c21b97-bbc3iB.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:08] [class-ss-page.php:119] Checking Content Identical:e6d716de8f35ba6daf55d57e7fe0ed8d8e50f1f7===. Value: FALSE
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2024-10-16 17:43:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 34
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2c2a574-mV7ZfR.tmp
+[2024-10-16 17:43:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff?simply_static_page=30
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff?simply_static_page=30
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:103] Filesize: 92476 bytes
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2c2a574-mV7ZfR.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:08] [class-ss-page.php:119] Checking Content Identical:6ac6c03ebcebc29f36f09525ae9564f12240776d===. Value: FALSE
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2024-10-16 17:43:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 34
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2c32863-BOtU6Q.tmp
+[2024-10-16 17:43:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg?simply_static_page=31
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg?simply_static_page=31
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:103] Filesize: 301078 bytes
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2c32863-BOtU6Q.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:08] [class-ss-page.php:119] Checking Content Identical:ec61e990e5f34ed24203361f3a9b084b2309ed24===. Value: FALSE
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-03-1.png
+[2024-10-16 17:43:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 34
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2c4a9a3-Bj3DCQ.tmp
+[2024-10-16 17:43:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-03-1.png?simply_static_page=32
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-03-1.png?simply_static_page=32
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:103] Filesize: 37402 bytes
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/cyber-security-03-1.png
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2c4a9a3-Bj3DCQ.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/uploads/2024/10/cyber-security-03-1.png
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:08] [class-ss-page.php:119] Checking Content Identical:15894b59f909558420f7225dc15794ce4de2e618===. Value: FALSE
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-17.png
+[2024-10-16 17:43:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 34
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2c594d1-Uiyaan.tmp
+[2024-10-16 17:43:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-17.png?simply_static_page=33
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-17.png?simply_static_page=33
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:103] Filesize: 19473 bytes
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/cyber-security-17.png
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2c594d1-Uiyaan.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/uploads/2024/10/cyber-security-17.png
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:08] [class-ss-page.php:119] Checking Content Identical:1ace8ba74d0e1327ff870fc763c0b2bed5287589===. Value: FALSE
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-010-1.png
+[2024-10-16 17:43:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 34
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2c62798-Yc7x56.tmp
+[2024-10-16 17:43:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-010-1.png?simply_static_page=34
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/uploads/2024/10/cyber-security-010-1.png?simply_static_page=34
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:103] Filesize: 11088 bytes
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/cyber-security-010-1.png
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2c62798-Yc7x56.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/uploads/2024/10/cyber-security-010-1.png
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:08] [class-ss-page.php:119] Checking Content Identical:3141d8090194f6eaebba0b436d1945a45f5a7037===. Value: FALSE
+[2024-10-16 17:43:08] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 34 pages/files
+[2024-10-16 17:43:08] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-16 17:43:08] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-16 17:43:08] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:69] Total pages: 45; Pages remaining: 11
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/2024/10/16/hello-world/
+[2024-10-16 17:43:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 45
+[2024-10-16 17:43:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2c6eb13-CVNTk9.tmp
+[2024-10-16 17:43:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/2024/10/16/hello-world/?simply_static_page=35
+[2024-10-16 17:43:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/2024/10/16/hello-world/?simply_static_page=35
+[2024-10-16 17:43:09] [class-ss-url-fetcher.php:103] Filesize: 141206 bytes
+[2024-10-16 17:43:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-16 17:43:09] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/16/hello-world/index.html
+[2024-10-16 17:43:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2c6eb13-CVNTk9.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/2024/10/16/hello-world/index.html
+[2024-10-16 17:43:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:09] [class-ss-fetch-urls-task.php:159] Adding 25 URLs to the queue
+[2024-10-16 17:43:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:09] [class-ss-page.php:119] Checking Content Identical:4d90ee51eeb05b4e87b38afb55343d76aa6178fe===. Value: FALSE
+[2024-10-16 17:43:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2024-10-16 17:43:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 45
+[2024-10-16 17:43:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2d6fc52-BDIrTu.tmp
+[2024-10-16 17:43:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=36
+[2024-10-16 17:43:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=36
+[2024-10-16 17:43:09] [class-ss-url-fetcher.php:103] Filesize: 3349 bytes
+[2024-10-16 17:43:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-16 17:43:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2024-10-16 17:43:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2d6fc52-BDIrTu.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2024-10-16 17:43:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:09] [class-ss-page.php:119] Checking Content Identical:9c1dc49e9747758e033c0e9a7d016401bd78602c===. Value: FALSE
+[2024-10-16 17:43:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/category/uncategorized/feed/
+[2024-10-16 17:43:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 45
+[2024-10-16 17:43:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2d7a26d-nGKoUh.tmp
+[2024-10-16 17:43:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/category/uncategorized/feed/?simply_static_page=37
+[2024-10-16 17:43:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/category/uncategorized/feed/?simply_static_page=37
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:103] Filesize: 1726 bytes
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/feed/index.xml
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2d7a26d-nGKoUh.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/category/uncategorized/feed/index.xml
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:10] [class-ss-page.php:119] Checking Content Identical:d4452ed40cd308d27bc253e75880d8e3d7d71991===. Value: FALSE
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-json/wp/v2/categories/1
+[2024-10-16 17:43:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 45
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dalton/wp-json/wp/v2/categories/1
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/et-cache/global/et-divi-customizer-global.min.css
+[2024-10-16 17:43:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 45
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2e199b4-ejqLJB.tmp
+[2024-10-16 17:43:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/et-cache/global/et-divi-customizer-global.min.css?simply_static_page=39
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/et-cache/global/et-divi-customizer-global.min.css?simply_static_page=39
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:103] Filesize: 225 bytes
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/global/et-divi-customizer-global.min.css
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2e199b4-ejqLJB.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/et-cache/global/et-divi-customizer-global.min.css
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:10] [class-ss-page.php:119] Checking Content Identical:ddc5f626a005f4fc13befe03fda83c79bb0bd6a9===. Value: FALSE
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot
+[2024-10-16 17:43:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 45
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2e21d54-vID6I0.tmp
+[2024-10-16 17:43:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot?simply_static_page=40
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot?simply_static_page=40
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:103] Filesize: 6400 bytes
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2e21d54-vID6I0.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:10] [class-ss-page.php:119] Checking Content Identical:3a03658b5a1d593a9cd2c148fd17fc6023e5e3b8===. Value: FALSE
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf
+[2024-10-16 17:43:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 45
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2e2f68a-lVvFCc.tmp
+[2024-10-16 17:43:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf?simply_static_page=41
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf?simply_static_page=41
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:103] Filesize: 6228 bytes
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2e2f68a-lVvFCc.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:10] [class-ss-page.php:119] Checking Content Identical:388212f5009137d58ed93aeccfd075cb7e522166===. Value: FALSE
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff
+[2024-10-16 17:43:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 45
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2e36a69-G65M1t.tmp
+[2024-10-16 17:43:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff?simply_static_page=42
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff?simply_static_page=42
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:103] Filesize: 6304 bytes
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2e36a69-G65M1t.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:10] [class-ss-page.php:119] Checking Content Identical:7e1e182df2c6788ea81c0e03e8611cf4c0ed1ed0===. Value: FALSE
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg
+[2024-10-16 17:43:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 45
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2e407fd-uNo6hf.tmp
+[2024-10-16 17:43:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg?simply_static_page=43
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg?simply_static_page=43
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:103] Filesize: 17464 bytes
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2e407fd-uNo6hf.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:10] [class-ss-page.php:119] Checking Content Identical:57c820f99e6a4c724c3eeb763bb30d9267565c9c===. Value: FALSE
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton
+[2024-10-16 17:43:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 45
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2e4d35f-UXkjih.tmp
+[2024-10-16 17:43:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton?simply_static_page=44
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton?simply_static_page=44
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:103] Filesize: 353 bytes
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/dalton/
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/2024/10/16/hello-world/feed/
+[2024-10-16 17:43:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 45
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2e56fc3-PvL5Xn.tmp
+[2024-10-16 17:43:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/2024/10/16/hello-world/feed/?simply_static_page=45
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/2024/10/16/hello-world/feed/?simply_static_page=45
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:103] Filesize: 1675 bytes
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/16/hello-world/feed/index.xml
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2e56fc3-PvL5Xn.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/2024/10/16/hello-world/feed/index.xml
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:10] [class-ss-page.php:119] Checking Content Identical:16685b49b96e9cf880e40200bcc764fdbdb04914===. Value: FALSE
+[2024-10-16 17:43:10] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 34 of 45 pages/files
+[2024-10-16 17:43:10] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-16 17:43:10] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-16 17:43:10] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:69] Total pages: 47; Pages remaining: 2
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-includes/js/comment-reply.min.js
+[2024-10-16 17:43:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 47
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2ee7af5-OegLzV.tmp
+[2024-10-16 17:43:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/wp-includes/js/comment-reply.min.js?simply_static_page=46
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/wp-includes/js/comment-reply.min.js?simply_static_page=46
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-10-16 17:43:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2ee7af5-OegLzV.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578/wp-includes/js/comment-reply.min.js
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-16 17:43:10] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/dalton/wp-json/wp/v2/posts/1
+[2024-10-16 17:43:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 47
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/dalton/wp-json/wp/v2/posts/1
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-16 17:43:10] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 45 of 47 pages/files
+[2024-10-16 17:43:10] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-16 17:43:10] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-16 17:43:10] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-16 17:43:10] [class-ss-fetch-urls-task.php:69] Total pages: 47; Pages remaining: 0
+[2024-10-16 17:43:10] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 47 of 47 pages/files
+[2024-10-16 17:43:11] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-16 17:43:11] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-16 17:43:11] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-16 17:43:11] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-16 17:43:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/670ffb2f02724-lqNfD7.tmp
+[2024-10-16 17:43:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/dalton/1729100592?simply_static_page=0
+[2024-10-16 17:43:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/dalton/1729100592?simply_static_page=0
+[2024-10-16 17:43:11] [class-ss-url-fetcher.php:103] Filesize: 55441 bytes
+[2024-10-16 17:43:11] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-16 17:43:11] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-16 17:43:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/670ffb2f02724-lqNfD7.tmp to E:\xampp\htdocs\dalton/wp-content/uploads\simply-static\temp-files/simply-static-1-1729100578\404/index.html
+[2024-10-16 17:43:11] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-16 17:43:11] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-16 17:43:11] [class-ss-page.php:119] Checking Content Identical:4764eb82bfb7826385597b3149c007fd6db489df===. Value: FALSE
+[2024-10-16 17:43:11] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-16 17:43:11] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-10-16 17:43:11] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-10-16 17:43:11] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-10-16 17:43:11] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 40 of 40 files
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/category/uncategorized
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/2024/10
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/feed
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/themes/Divi/images
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/uploads/2024/10
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/uploads/2024/10
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/uploads/2024/10
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/uploads/2024/10
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/uploads/2024/10
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/uploads/2024/10
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/uploads/2024/10
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/uploads/2024/10
+[2024-10-16 17:43:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/uploads/2024/10
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-includes/js/jquery
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-includes/js/jquery
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/themes/Divi/js
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/themes/Divi/core/admin/js
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/uploads/2024/10
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/comments/feed
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/et-cache/11
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-includes/css/dist/block-library
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/themes/Divi/includes/builder/styles/images
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/uploads/2024/10
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/uploads/2024/10
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/uploads/2024/10
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/2024/10/16/hello-world
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/category/uncategorized/feed
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/et-cache/global
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-content/themes/Divi/core/admin/fonts/modules/base
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/2024/10/16/hello-world/feed
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: E:/xampp/htdocs/dalton/wp-includes/js
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:40. Processed Pages: 40
+[2024-10-16 17:43:12] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 40 of 40 files
+[2024-10-16 17:43:12] [trait-can-process-pages.php:110] Total pages: 40; Pages remaining: 0
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at E:\xampp\htdocs\dalton\404\index.html
+[2024-10-16 17:43:12] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-10-16 17:43:12] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://daltonbreedt.github.io/dalton/" target="_blank">https://daltonbreedt.github.io/dalton/</a>
+[2024-10-16 17:43:12] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-16 17:43:12] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-16 17:43:12] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-16 17:43:12] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-16 17:43:12] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-16 17:43:12] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-16 17:43:12] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-16 17:43:12] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:14
